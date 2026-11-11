@@ -1,0 +1,15 @@
+# Root-anchored so a src/<package>/data/ sub-package is not ignored.
+/data/
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+.env
+.env*
+!.env.example
+
+# Web app
+web/node_modules/
+web/dist/
